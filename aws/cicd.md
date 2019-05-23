@@ -1,19 +1,24 @@
 # CI/CDに関する知見
 
 ## Code Commit
-- BitbucketやGithubのリポジトリミラーリングには対応している？
-  - 2019年5月時点では対応していないのでCode Commitでソース管理しなければならなくなる
+
+### BitbucketやGithubのリポジトリミラーリングには対応している？
+- 2019年5月時点では対応していないのでCode Commitでソース管理しなければならなくなる
 
 ## Code Pipeline
-- リポジトリに対するトリガーの条件定義はどこまで柔軟に設定できるのか？
-  - 例えば、Push・PR作成・Merge・Tagなど
-  - また、これらはブランチ単位で定義できるのか？
+
+### リポジトリに対するトリガーの条件定義はどこまで柔軟に設定できるのか？
+- 例えば、Push・PR作成・Merge・Tagなど
+- また、これらはブランチ単位で定義できるのか？
+  - Pushしか対応していない
 
 ## Code Build
-- ECRにビルドイメージをPushできるのと同じようにS3にビルドファイル(アーティファクトファイル)をUploadできるのか？
-  - できる
-- Slack通知したい
-  - Cloudwatch Events -> SNS -> Lambdaでできる
+
+### ECRにビルドイメージをPushできるのと同じようにS3にビルドファイル(アーティファクトファイル)をUploadできるのか？
+- できる
+
+### Slack通知したい
+- Cloudwatch Events -> SNS -> Lambdaでできる
 
 ## Code Deploy
 
