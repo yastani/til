@@ -82,7 +82,7 @@ DevOpsのコラボレーションツールとして生まれた。
 - Stackdriver logsも取り込める
 - Hangoutもできる
 - Alibabaもできる
-- AIX用Daadogエージェントもリリースした
+- AIX用Datadogエージェントもリリースした
 
 ## DatadogにTerraformをあげましょう
 
